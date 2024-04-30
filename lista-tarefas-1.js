@@ -34,3 +34,16 @@ console.log(`Resultado final do número 2: ${num2 * 3}`);
 console.log(`Resultado final do número 3: ${12 / (num3 * 100)}`);
 console.log(`Resultado final do número 4: ${num1 + num2 + num3 + num4}`);
 
+// 4. Escreva um algoritmo para ler as notas das duas avaliações de um aluno no semestre,
+// calcular e escrever a média semestral e a seguinte mensagem: ‘PARABÉNS! Você foi
+// aprovado’, somente se o aluno foi aprovado (considere 6.0 a nota mínima para
+// aprovação).
+let nota1 = 5;
+let nota2 = 6;
+let media = (nota1 + nota2) / 2;
+if (media >= 6) {
+    console.log('PARABÉNS! Você foi aproado(a).')
+} else {
+    console.log('QUE PENA :( Você não atingiu a pontuação necessária para aprovação!')
+}
+
