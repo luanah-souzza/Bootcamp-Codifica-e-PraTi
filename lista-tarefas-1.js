@@ -42,8 +42,11 @@ let nota1 = 5;
 let nota2 = 6;
 let media = (nota1 + nota2) / 2;
 if (media >= 6) {
-    console.log('PARABÉNS! Você foi aproado(a).')
+    console.log('PARABÉNS! Você foi aproado(a).');
 } else {
-    console.log('QUE PENA :( Você não atingiu a pontuação necessária para aprovação!')
+    console.log('Você foi REPROVADO! Estude mais.');
 }
+
+// 5. Acrescente ao exercício acima a mensagem ‘Você foi REPROVADO! Estude mais’ caso a
+// média calculada seja menor que 6,0
 
