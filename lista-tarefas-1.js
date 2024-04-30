@@ -71,3 +71,15 @@ if (A < (B + C) && B < (A + C) && C < (A + B)) {
 } else {
     console.log ("Os valores fornecidos não formam um triângulo!")
 }
+
+// 7. As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se
+// forem compradas pelo menos doze. Escreva um algoritmo que leia o número de maçãs
+// compradas, calcule e escreva o valor total da compra.
+let quantidadeMacas = 14;
+let valorTotal;
+if (quantidadeMacas < 12) {
+    valorTotal = quantidadeMacas * 0.30;
+} else {
+    valorTotal = quantidadeMacas * 0.25;
+}
+console.log(`Foram compradas ${quantidadeMacas} maçãs e o valor total foi de R$ ${valorTotal.toFixed(2)}`)
