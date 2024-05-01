@@ -83,3 +83,15 @@ if (quantidadeMacas < 12) {
     valorTotal = quantidadeMacas * 0.25;
 }
 console.log(`Foram compradas ${quantidadeMacas} maçãs e o valor total foi de R$ ${valorTotal.toFixed(2)}`)
+
+// 8. Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais)
+// e escreve-los em ordem crescente.
+let valor1 = 30;
+let valor2 = 15;
+if(valor1 > valor2) {
+    console.log(`${valor2}, ${valor1}`)
+} else {
+    console.log(`${valor1}, ${valor2}`)
+}
+
+
