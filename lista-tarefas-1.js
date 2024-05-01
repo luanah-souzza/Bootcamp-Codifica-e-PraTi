@@ -117,4 +117,8 @@ if (codigo == 1) {
     console.log("Fora dos intervalos - Produto importado")
 }
 
-
+// 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
+let num = 10;
+for (let i = 1; i <= 10; i++) {
+    console.log(`${num}`);
+}
